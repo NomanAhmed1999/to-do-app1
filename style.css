@@ -1,0 +1,79 @@
+
+body{
+    background-image: linear-gradient(to right, rgb(47, 0, 255), rgb(212, 89, 185));
+    text-align: center;
+    margin-top: 80px;
+}
+
+h1{
+    text-align: center;
+}
+.btn{
+    margin: 0%;
+    width: 8%;
+    height: 20px;
+    min-width: 18%;
+    border: 2px groove pink;
+    box-shadow: 1px 2px 2px gray;
+    background-color: tomato;
+    color: white;
+    margin-left: 20px;
+}
+.btn:hover{
+    color: tomato;
+    background-color: white;
+}
+.items{
+    display: block;
+    /* border: 2px groove pink; */
+}
+.sbtn{
+    margin: 0% 2%;
+    border: 2px groove rgb(26, 29, 71);
+    box-shadow: 4px 3px 1px grey;
+    background-color: rgb(131, 236, 136);
+    color: rgb(19, 18, 18);
+    margin-left: 20px;
+}
+.sbtn:hover{
+    color: rgb(3, 3, 3);
+    background-color: rgb(231, 235, 10);
+}
+.input{
+    margin: 0% 2%;
+    border: 2px groove rgb(26, 29, 71);
+    color: rgb(19, 18, 18);
+    margin-left: 20px;
+}
+
+
+/* @media only screen and (max-width : 500px) */
+
+@media only screen and (max-width: 500px){
+    
+    .sbtn{
+        margin: 5% 25% 4% 27%;
+    border: 2px groove rgb(26, 29, 71);
+    box-shadow: 4px 3px 1px grey;
+    background-color: rgb(131, 236, 136);
+    color: rgb(19, 18, 18);
+    width: 100px;
+}
+
+
+.btn{
+    margin: 0% 10% 5% 0%;
+        width: 8%;
+        height: 20px;
+        min-width: 18%;
+        border: 2px groove pink;
+        box-shadow: 1px 2px 2px gray;
+        background-color: tomato;
+        color: white;
+        margin-left: 20px;
+}
+.items{
+    margin: 8% 0% 2% 0%;
+    border: 2px groove rgb(216, 159, 1);
+}
+  }
